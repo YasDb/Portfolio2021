@@ -1,0 +1,38 @@
+:root {
+  --black: #000000;
+  --iron: #d7d7d7;
+  --mountain-mist: #969696;
+
+  --font-size-l: 85px;
+  --font-size-m: 30px;
+  --font-size-s: 20px;
+  --font-size-xl: 107px;
+  --font-size-xxl: 123px;
+  --font-size-xxxl: 215px;
+
+  --font-family-helveticaneueltpro-ex: "HelveticaNeueLTPro-Ex", Helvetica;
+}
+.helveticaneueltpro-ex-normal-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-helveticaneueltpro-ex);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.helveticaneueltpro-ex-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-helveticaneueltpro-ex);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.helveticaneueltpro-ex-normal-black-215px {
+  color: var(--black);
+  font-family: var(--font-family-helveticaneueltpro-ex);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.border-1px-mountain-mist {
+  border: 1px solid var(--mountain-mist);
+}
